@@ -77,6 +77,7 @@ public class CircularProgressBar extends View {
         foregroundPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         foregroundPaint.setColor(color);
         foregroundPaint.setStyle(Paint.Style.STROKE);
+        foregroundPaint.setStrokeCap(Paint.Cap.ROUND);
         foregroundPaint.setStrokeWidth(strokeWidth);
     }
     //endregion
